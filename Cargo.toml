@@ -6,3 +6,14 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+csv = "1.1"
+serde = { version = "1.0", features = ["derive"] }
+ndarray = "0.15.6"
+scan_fmt = "0.2.6"
+regex = "1"
+daggy = "0.8"
+petgraph = "0.6"
+ndarray-csv = "0.5"
+cached = "0.40"
+ndarray-stats = "0.5.1"
+
