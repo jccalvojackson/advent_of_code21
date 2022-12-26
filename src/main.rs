@@ -10,6 +10,10 @@ use p6::p6a::p6a;
 use p7::p7b::p7b;
 use p8::p8a::p8a;
 use p8::p8b::p8b;
+// use p9::p9a::p9a;
+use p9::p9b::p9b;
+
+// pub mod debug;
 pub mod p1;
 pub mod p2;
 pub mod p3;
@@ -18,6 +22,7 @@ pub mod p5;
 pub mod p6;
 pub mod p7;
 pub mod p8;
+pub mod p9;
 
 fn main() {
     p1a().expect("hi");
@@ -32,4 +37,6 @@ fn main() {
     p7b().expect("hi");
     p8a().expect("msg");
     p8b().expect("msg");
+    // p9a().expect("msg");
+    p9b().expect("msg");
 }

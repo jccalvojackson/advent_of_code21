@@ -16,4 +16,5 @@ petgraph = "0.6"
 ndarray-csv = "0.5"
 cached = "0.40"
 ndarray-stats = "0.5.1"
+gnuplot = "0.0.37"
 
